@@ -1,0 +1,71 @@
+/* Font links */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,700;1,200;1,300;1,500;1,600&display=swap');
+
+/* reset*/
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+/*Inicio cabeçalho*/
+
+.cabeçalho {
+  background: rgb(150, 02, 00);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 8%;
+}
+
+.geral-nav {
+  padding: 0, 15px;
+}
+
+/*Nome da pagina*/
+#name {
+  font-size: 20px;
+  color: white;
+  padding: 0 25px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/*itens do menu*/
+.iten-nav {
+  font-size: 20px;
+  color: white;
+  padding: 0 25px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+
+.iten-nav:hover {
+  color: rgb(252, 255, 162);
+  text-decoration: none;
+}
+
+/*Buttons*/
+
+button {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #ffb400;
+  border-radius: 13px;
+  padding: 5px 15px;
+}
+
+button:hover {
+  font-weight: 600;
+  background-color: #fdcc5a;
+  border-radius: 13px;
+  padding: 7px 15px;
+}
