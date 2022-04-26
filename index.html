@@ -19,27 +19,35 @@
       <a class="iten-nav" href="https://www.google.com">Escolas</a>
     </nav>
     <div id="search-box">
-      <input id="searchImput" type="text" placeholder="Pesquisar">
-      <button id="serarchButton">Pesquisar</button>
+      <input id="searchImput" type="text" placeholder="Pesquisar" maxlength="14">
+      <button id="searchButton">Pesquisar</button>
+      <a href="Login.html"><button>Login/Cadastro</button></a>
     </div>
-      <button id="Botão-cadastro">Login/Cadastro</button>
   </header>
 
- <!--contéudo principal com os anuncios-->
+ <!--Main content "Jobs posters"-->
 <main>
-<div class="titulo">
-  <h1>Vagas de emprego</h1>
-  <p>Examples and usage guidelines for form control styles, layout options, and custom components for creating a wide variety of forms.</p>
-</div>
-<div class="filtro">
-  <p>Filtrar por região</p>
-  <input type="text" placeholder="Belo Horizonte- MG">
-</div>
+  <div class="titulos-geral">
+        <div class="titulo">
+          <h1>Vagas de emprego</h1>
+          <p>Examples and usage guidelines for form control styles, layout options, and<br> custom components for creating a wide variety of forms.</p>
+        </div>
+        <div class="filtro">
+          <label for="region">Escolha a região</label><br>
+                <select id="região" name="local">
+                      <option value="Belo Horizonte">Belo Horizonte</option>
+                      <option value="Caratinga">Caratinga</option>
+                      <option value="Sapucaia">Sapucaia</option>
+                      <option value="Dom modesto">Dom modesto</option>
+                </select>
+        </div>
+  </div>
+  
 
-<!-- Divs com os blocos de anuncios-->
+<!-- Divs with posters-->
 <section class="anuncios-topo">
-  <!--Até esse momento todas as divs são identicas-->
-  <!--Div de vaga 1-->
+  <!--For now all the Divs will be the same-->
+  <!--Div poster 1-->
   <div class="anuncio-vaga">
     <h2>Nome da empresa</h2>
     <ol>
@@ -50,7 +58,7 @@
     </ol>
     <p>Ver mais informações</p>
   </div>
-      <!--Div de vaga 2-->
+      <!--Div poster 2-->
       <div class="anuncio-vaga">
         <h2>Nome da empresa</h2>
         <ol>
@@ -61,7 +69,7 @@
         </ol>
         <p>Ver mais informações</p>
       </div>
-            <!--Div de vaga 3-->
+            <!--Div poster 3-->
             <div class="anuncio-vaga">
               <h2>Nome da empresa</h2>
               <ol>
@@ -72,7 +80,7 @@
               </ol>
               <p>Ver mais informações</p>
             </div>
-                 <!--Div de vaga 4-->
+                 <!--Div poster 4-->
                 <div class="anuncio-vaga">
                   <h2>Nome da empresa</h2>
                   <ol>
@@ -84,8 +92,10 @@
                   <p>Ver mais informações</p>
                 </div>
           </section>
+
+          <!--Botton section-->
           <section class="anuncios-boton">
-              <!--Div de vaga 1-->
+              <!--Div poster 1-->
   <div class="anuncio-vaga">
     <h2>Nome da empresa</h2>
     <ol>
@@ -96,7 +106,7 @@
     </ol>
     <p>Ver mais informações</p>
   </div>
-      <!--Div de vaga 2-->
+      <!--Div poster 2-->
       <div class="anuncio-vaga">
         <h2>Nome da empresa</h2>
         <ol>
@@ -107,7 +117,7 @@
         </ol>
         <p>Ver mais informações</p>
       </div>
-            <!--Div de vaga 3-->
+            <!--Div poster 3-->
             <div class="anuncio-vaga">
               <h2>Nome da empresa</h2>
               <ol>
@@ -118,7 +128,7 @@
               </ol>
               <p>Ver mais informações</p>
             </div>
-                 <!--Div de vaga 4-->
+                 <!--Div poster 4-->
                 <div class="anuncio-vaga">
                   <h2>Nome da empresa</h2>
                   <ol>

@@ -10,17 +10,26 @@
   font-family: 'Poppins', sans-serif;
 }
 
+body {
+  background-color: rgb(249, 247, 247);
+}
+
+main {
+  margin: 0 15vh 0 15vh;
+
+}
+
 h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
 }
 
-/*Inicio cabeçalho*/
+/*Header beggin*/
 
 .cabeçalho {
   background: rgb(150, 02, 00);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 15px 8%;
 }
@@ -29,18 +38,29 @@ h1 {
   padding: 0, 15px;
 }
 
-/*Nome da pagina*/
+#search-box {
+  position: relative;
+
+
+}
+
+#searchImput {
+  padding: 3px;
+  margin: auto;
+}
+
+/*Page name*/
 #name {
-  font-size: 20px;
+  font-size: 16px;
   color: white;
   padding: 0 25px;
   font-weight: 600;
   text-decoration: none;
 }
 
-/*itens do menu*/
+/*Nav itens*/
 .iten-nav {
-  font-size: 20px;
+  font-size: 16px;
   color: white;
   padding: 0 25px;
   font-weight: 600;
@@ -51,21 +71,103 @@ h1 {
 .iten-nav:hover {
   color: rgb(252, 255, 162);
   text-decoration: none;
+  padding: 0 25px;
 }
 
 /*Buttons*/
 
+
 button {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   background-color: #ffb400;
-  border-radius: 13px;
-  padding: 5px 15px;
+  border-radius: 10px;
+  padding: 0px 15px;
 }
 
 button:hover {
   font-weight: 600;
-  background-color: #fdcc5a;
-  border-radius: 13px;
-  padding: 7px 15px;
+  background-color: #f8cd6a;
+}
+
+/*Posters sections*/
+
+.titulos-geral {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  display: flex;
+  justify-content: space-around;
+  color: #212529;
+
+}
+
+.titulos-geral h1 {
+  font-size: 60px;
+  flex-direction: row;
+  margin-bottom: 15px;
+
+}
+
+.titulos-geral p {
+  font-size: 16px;
+  font-weight: 500;
+
+}
+
+.filtro {
+  align-self: flex-end;
+}
+
+.filtro label {
+  font-weight: 700;
+
+}
+
+.anuncios-topo {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 40px;
+
+}
+
+.anuncios-boton {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.anuncio-vaga {
+  padding: 8px;
+  margin: 5px;
+  background-image: url('img/fundinnn.png');
+  background-size: cover;
+}
+
+.anuncio-vaga h2 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.anuncio-vaga p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.anuncio-vaga ol {
+  font-size: 16px;
+}
+
+footer {
+  background-color: rgb(32, 42, 37);
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+
+/* Footer */
+
+footer h3 {
+  font-weight: 400;
 }
