@@ -15,7 +15,9 @@ body {
 }
 
 main {
-  margin: 0 15vh 0 15vh;
+  margin: auto;
+  max-width: 1200px;
+
 
 }
 
@@ -96,14 +98,14 @@ button:hover {
   margin-top: 5vh;
   margin-bottom: 5vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   color: #212529;
+
 
 }
 
 .titulos-geral h1 {
   font-size: 60px;
-  flex-direction: row;
   margin-bottom: 15px;
 
 }
@@ -125,17 +127,19 @@ button:hover {
 
 .anuncios-topo {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 15px;
   margin-bottom: 40px;
+
 
 }
 
 .anuncios-boton {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 15px;
   margin-bottom: 40px;
+
 }
 
 .anuncio-vaga {
