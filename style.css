@@ -18,7 +18,6 @@ main {
   margin: auto;
   max-width: 1200px;
 
-
 }
 
 h1 {
@@ -43,7 +42,6 @@ h1 {
 #search-box {
   position: relative;
 
-
 }
 
 #searchImput {
@@ -51,8 +49,8 @@ h1 {
   margin: auto;
 }
 
-/*Page name*/
-#name {
+
+#page-name {
   font-size: 16px;
   color: white;
   padding: 0 25px;
@@ -76,7 +74,7 @@ h1 {
   padding: 0 25px;
 }
 
-/*Buttons*/
+/*geral Buttons*/
 
 
 button {
@@ -163,14 +161,37 @@ button:hover {
   font-size: 16px;
 }
 
+/* Form */
+
+.forms {
+  background-color: rgb(231, 231, 231);
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+  flex-direction: row;
+  width: 500px;
+  height: 700px;
+  border-radius: 2%;
+  padding: 20px;
+  justify-items: left;
+
+}
+
+fieldset {
+  padding: 0;
+}
+
+
+
+
+/* Footer */
+
 footer {
   background-color: rgb(32, 42, 37);
   padding: 30px;
   text-align: center;
   color: white;
 }
-
-/* Footer */
 
 footer h3 {
   font-weight: 400;

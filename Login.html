@@ -8,6 +8,57 @@
   <title>Login</title>
 </head>
 <body>
+
+<div class="forms">
+
+  <form>
+    <h2>Cadastro</h2>
+    <fieldset>
+      <p>Preencha os dados a seguir</p>
+      <label>Nome</label><br>
+      <input type="text" name="nome" placeholder="Escola dos bons" id="name">
+      <p>Digite seu nome</p>
+      
+      <label>Endereço</label><br>
+      <input type="text" name="endereço" placeholder="Juiz de fora MG" id="adress">
+      <p>Sua cidade</p>
+
+      <label>E-mail</label><br>
+      <input type="email" name="email" placeholder="email@hotmail.com" id="email">
+      <p>Digite seu melhor e-mail</p>
+
+      <label>Whatsapp</label><br>
+      <input type="tel" name="telefone" pattern="\([0-9]{2}\)[0-9]{1}[0-9]{4}-[0-9]{4}" placeholder="(00)0 0000-0000" id="whatsapp">
+      <p>Entraremos em contato através dele</p>
+
+      <label>Tipo de empresa</label><br>
+      <select name="tipo" id="tipo">
+        <option value="Escola">Escola</option>
+        <option value="Empresa contratante">Empresa contratante</option>
+      </select>
+      <p>Entraremos em contato através dele</p>
+
+      <label>Senha</label><br>
+      <input type="password" name="Senha" placeholder="*********" minlength="8" id="senha1">
+      <p>Você a usara para acessar o sistema</p>
+
+      <label>Confirmação da senha</label><br>
+      <input type="password" name="Senha" placeholder="*********" minlength="8" id="senha2">
+      <p>Digite a senha novamente</p>
+
+      <div id="buttons">
+
+      <button id="register">Cadastrar</button><br>
+      <button id="back">Voltar</button>
+
+     </div>
+      <p>Ja possui uma conta?<a href="">Faça login</a></p>
+
+    
+    </fieldset>
+  </form>
+
+</div>
   
 </body>
 </html>
