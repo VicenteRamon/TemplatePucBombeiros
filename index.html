@@ -11,30 +11,32 @@
   <title>Bombeiros MG</title>
 </head>
 <body>
-  <header class="cabeçalho">
-      <a id="page-name" href="https://www.google.com">Loren</a>
+  <header class="header">
     <nav class="geral-nav">
-      <a class="iten-nav" href="https://www.google.com">Inicio</a>
-      <a class="iten-nav" href="https://www.google.com">vagas de emprego</a>
-      <a class="iten-nav" href="https://www.google.com">Escolas</a>
+      <a id="page-name" href="./index.html">Loren</a>
+      <a class="iten-nav" href="./index.html">Inicio</a>
+      <a class="iten-nav" href="./index.html">vagas de emprego</a>
+      <a class="iten-nav" href="./index.html">Escolas</a>
     </nav>
-    <div id="search-box">
-      <input id="searchImput" type="text" placeholder="Pesquisar" maxlength="14">
-      <button id="searchButton">Pesquisar</button>
-      <a href="Login.html"><button>Login/Cadastro</button></a>
-    </div>
+      <div id="search-box">
+        <form>
+          <input id="searchImput" type="search" placeholder="Pesquisar" maxlength="14" aria-label="Campo de pesquisa">
+          <button id="searchButton">Pesquisar</button>
+        </form>
+          <a href="Login.html"><button>Login/Cadastro</button></a>
+      </div>
   </header>
 
  <!--Main content "Jobs posters"-->
 <main>
-  <div class="titulos-geral">
-        <div class="titulo">
+  <div class="geral-title">
+        <div class="title">
           <h1>Vagas de emprego</h1>
           <p>Examples and usage guidelines for form control styles, layout options, and<br> custom components for creating a wide variety of forms.</p>
         </div>
-        <div class="filtro">
+        <div class="filter">
           <label for="region">Escolha a região</label><br>
-                <select id="região" name="local">
+                <select id="region" name="local">
                       <option value="Belo Horizonte">Belo Horizonte</option>
                       <option value="Caratinga">Caratinga</option>
                       <option value="Sapucaia">Sapucaia</option>
@@ -45,10 +47,10 @@
   
 
 <!-- Divs with posters-->
-<section class="anuncios-topo">
+<section class="adverts">
   <!--For now all the Divs will be the same-->
   <!--Div poster 1-->
-  <div class="anuncio-vaga">
+  <div class="job-poster">
     <h2>Nome da empresa</h2>
     <ol>
       <li>CLR 40H</li>
@@ -59,7 +61,7 @@
     <p>Ver mais informações</p>
   </div>
       <!--Div poster 2-->
-      <div class="anuncio-vaga">
+      <div class="job-poster">
         <h2>Nome da empresa</h2>
         <ol>
           <li>CLR 40H</li>
@@ -70,7 +72,7 @@
         <p>Ver mais informações</p>
       </div>
             <!--Div poster 3-->
-            <div class="anuncio-vaga">
+            <div class="job-poster">
               <h2>Nome da empresa</h2>
               <ol>
                 <li>CLR 40H</li>
@@ -81,7 +83,7 @@
               <p>Ver mais informações</p>
             </div>
                  <!--Div poster 4-->
-                <div class="anuncio-vaga">
+                <div class="job-poster">
                   <h2>Nome da empresa</h2>
                   <ol>
                     <li>CLR 40H</li>
@@ -91,12 +93,8 @@
                   </ol>
                   <p>Ver mais informações</p>
                 </div>
-          </section>
 
-          <!--Botton section-->
-          <section class="anuncios-boton">
-              <!--Div poster 1-->
-  <div class="anuncio-vaga">
+  <div class="job-poster">
     <h2>Nome da empresa</h2>
     <ol>
       <li>CLR 40H</li>
@@ -107,7 +105,7 @@
     <p>Ver mais informações</p>
   </div>
       <!--Div poster 2-->
-      <div class="anuncio-vaga">
+      <div class="job-poster">
         <h2>Nome da empresa</h2>
         <ol>
           <li>CLR 40H</li>
@@ -118,7 +116,7 @@
         <p>Ver mais informações</p>
       </div>
             <!--Div poster 3-->
-            <div class="anuncio-vaga">
+            <div class="job-poster">
               <h2>Nome da empresa</h2>
               <ol>
                 <li>CLR 40H</li>
@@ -129,7 +127,7 @@
               <p>Ver mais informações</p>
             </div>
                  <!--Div poster 4-->
-                <div class="anuncio-vaga">
+                <div class="job-poster">
                   <h2>Nome da empresa</h2>
                   <ol>
                     <li>CLR 40H</li>
@@ -139,7 +137,8 @@
                   </ol>
                   <p>Ver mais informações</p>
                 </div>
-          </section>
+         </section>
+          
 </main>
 <footer>
   <h3>Todos os direitos reservados</h3>

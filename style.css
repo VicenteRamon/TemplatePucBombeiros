@@ -27,12 +27,13 @@ h1 {
 
 /*Header beggin*/
 
-.cabeçalho {
+.header {
   background: rgb(150, 02, 00);
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 15px 8%;
+  flex-wrap: wrap;
 }
 
 .geral-nav {
@@ -41,7 +42,7 @@ h1 {
 
 #search-box {
   position: relative;
-
+  display: flex;
 }
 
 #searchImput {
@@ -92,7 +93,7 @@ button:hover {
 
 /*Posters sections*/
 
-.titulos-geral {
+.geral-title {
   margin-top: 5vh;
   margin-bottom: 5vh;
   display: flex;
@@ -102,62 +103,60 @@ button:hover {
 
 }
 
-.titulos-geral h1 {
+.geral-title h1 {
   font-size: 60px;
   margin-bottom: 15px;
 
 }
 
-.titulos-geral p {
+.geral-title p {
   font-size: 16px;
   font-weight: 500;
 
 }
 
-.filtro {
+.filter {
   align-self: flex-end;
+
 }
 
-.filtro label {
+
+.filter label {
   font-weight: 700;
 
 }
 
-.anuncios-topo {
+.adverts {
   display: flex;
   justify-content: space-between;
   gap: 15px;
   margin-bottom: 40px;
+  flex-wrap: wrap;
 
 
 }
 
-.anuncios-boton {
-  display: flex;
-  justify-content: space-between;
-  gap: 15px;
-  margin-bottom: 40px;
 
-}
-
-.anuncio-vaga {
+.job-poster {
   padding: 8px;
   margin: 5px;
   background-image: url('img/fundinnn.png');
   background-size: cover;
+  border-radius: 8%;
+  box-shadow: -8px 12px 20px #8b8d8f;
 }
 
-.anuncio-vaga h2 {
+.job-poster h2 {
   font-weight: 600;
   font-size: 20px;
 }
 
-.anuncio-vaga p {
+.job-poster p {
   font-size: 16px;
   text-align: center;
 }
 
-.anuncio-vaga ol {
+.job-posters ol {
   font-size: 16px;
 }
 
