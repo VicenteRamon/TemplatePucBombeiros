@@ -28,12 +28,12 @@ h1 {
 /*Header beggin*/
 
 .header {
-  background: rgb(150, 02, 00);
+  background: #9f0000;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 15px 8%;
-  flex-wrap: wrap;
+  flex-wrap: nowrap
 }
 
 .geral-nav {
@@ -81,7 +81,7 @@ h1 {
 button {
   font-size: 16px;
   font-weight: 600;
-  background-color: #ffb400;
+  background-color: #fab400;
   border-radius: 5px;
   padding: 0px 15px;
 }
@@ -144,6 +144,11 @@ button:hover {
   background-size: cover;
   border-radius: 8%;
   box-shadow: -8px 12px 20px #8b8d8f;
+  transition: all .4s ease-in-out;
+}
+
+.job-poster:hover {
+  transform: scale(1.1);
 }
 
 .job-poster h2 {

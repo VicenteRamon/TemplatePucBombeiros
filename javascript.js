@@ -1,16 +1,12 @@
-// Criar aplicativo
 
 
-// Declaration
-//Functions statement 
-function createPhrases() {
-  document.write("Frase 1")
-  document.write("Frase 2")
-  document.write("Frase 3")
-  document.write("Frase 4")
-}
+  document.getElementById("back").onclick = function home() {
+  location.href = "./index.html";
+};
 
-// execution
+ document.querySelectorAll(".job-poster").onclick = function alert1() {
+  alert("teste");
+};
 
 
 
