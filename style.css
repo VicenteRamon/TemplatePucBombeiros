@@ -82,7 +82,7 @@ button {
   font-size: 16px;
   font-weight: 600;
   background-color: #ffb400;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 0px 15px;
 }
 
@@ -160,7 +160,17 @@ button:hover {
   font-size: 16px;
 }
 
-/* Form */
+/* Footer */
+
+footer {
+  background-color: rgb(32, 42, 37);
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+
+
+/* Form login page */
 
 .forms {
   background-color: rgb(231, 231, 231);
@@ -168,8 +178,8 @@ button:hover {
   justify-content: center;
   margin: 50px auto;
   flex-direction: row;
-  width: 500px;
-  height: 700px;
+  width: 40vw;
+  height: content;
   border-radius: 2%;
   padding: 20px;
   justify-items: left;
@@ -181,17 +191,31 @@ fieldset {
 }
 
 
+fieldset h3 {
+  font-weight: 600;
+  color: #6e6f71;
+  margin-bottom: 10px;
+}
 
+fieldset label {
+  font-weight: 550;
+  font-size: 15px;
+}
 
-/* Footer */
+fieldset p {
+  font-size: 15px;
+  margin-bottom: 8px;
+  color: #6e6f71;
+}
 
-footer {
-  background-color: rgb(32, 42, 37);
-  padding: 30px;
-  text-align: center;
+fieldset .buttons {
+text-align: center;
+}
+
+.form-button {
   color: white;
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 15px;
 }
 
-footer h3 {
-  font-weight: 400;
-}
